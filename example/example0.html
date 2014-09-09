@@ -1,0 +1,1688 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <script src="../js/jquery-1.9.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <style type="text/css">
+   .theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+    body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+    </style>
+    <body>   
+    <!-- Fixed navbar -->
+      <div class='navbar navbar-inverse navbar-fixed-top' role='navigation'>
+        <div class='container'>
+      	<div class='navbar-header'>
+            <button class='collapsed navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
+            	<span class='sr-only'>Bootstrap theme</span>
+            	<span class='icon-bar'></span>
+            	<span class='icon-bar'></span>
+            	<span class='icon-bar'></span>
+            </button>
+            <a href="" class='navbar-brand'>Bootstrap theme</a>
+      	</div>
+      	<div class='navbar-collapse collapse'>
+      		<ul class='nav navbar-nav'>
+      			<li class='active'><a href="">Home</a></li>
+      			<li><a href="">About</a></li>
+      			<li><a href="">Concat</a></li>
+      			<li class='dropdown' ><a href="" class='dropdown-toggle' data-toggle='dropdown'>Dropdown<span class='caret'></span></a>
+      			<ul class='dropdown-menu' role='menu'>
+      			  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class='divider'></li>
+                  <li class='dropdown-header'>Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+      			</ul>
+      			</li>
+      		</ul>
+      	  </div><!--/. collapde-->
+      	</div>
+      </div>
+
+     <div class='container theme-showcase' role='main'>
+     	<div class='jumbotron'>
+     	  <h1>Hello, world!</h1>
+          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+          <p ><a href="" class='btn btn-primary btn-lg' role='button' >Learn more &raquo;</a></p>
+     	</div> 
+     </div><!--/.jumbotron-->
+
+
+        <div class='page-header'>
+        	<h1>Buttons</h1>
+        </div>
+       
+        <p>
+        	<button type='button' class='btn btn-default btn-lg'>Default</button>
+        	<button type='button' class='btn btn-primary btn-lg'>Primary</button>
+        	<button type='button' class='btn btn-success btn-lg'>Success</button>
+        	<button type='button' class='btn btn-info btn-lg'>Info</button>
+        	<button type='button' class='btn btn-warning btn-lg'>Warning</button>
+        	<button type='button' class='btn btn-danger btn-lg'>Danger</button>
+        	<button type='button' class='btn btn-link btn-lg'>Link</button>
+        </p>
+        <p>
+        	<button type='button' class='btn btn-default'>Default</button>
+        	<button type='button' class='btn btn-primary'>Primary</button>
+        	<button type='button' class='btn btn-success'>Success</button>
+        	<button type='button' class='btn btn-info'>Info</button>
+        	<button type='button' class='btn btn-warning'>Warning</button>
+        	<button type='button' class='btn btn-danger'>Danger</button>
+        	<button type='button' class='btn btn-link'>Link</button>
+        </p>
+        <p>
+        	<button type='button' class='btn btn-default btn-sm'>Default</button>
+        	<button type='button' class='btn btn-primary btn-sm'>Primary</button>
+        	<button type='button' class='btn btn-success btn-sm'>Success</button>
+        	<button type='button' class='btn btn-info btn-sm'>Info</button>
+        	<button type='button' class='btn btn-warning btn-sm'>Warning</button>
+        	<button type='button' class='btn btn-danger btn-sm'>Danger</button>
+        	<button type='button' class='btn btn-link btn-sm'>Link</button>
+        </p>
+        <p>
+        	<button type='button' class='btn btn-default btn-xs'>Default</button>
+        	<button type='button' class='btn btn-primary btn-xs'>Primary</button>
+        	<button type='button' class='btn btn-success btn-xs'>Success</button>
+        	<button type='button' class='btn btn-info btn-xs'>Info</button>
+        	<button type='button' class='btn btn-warning btn-xs'>Warning</button>
+        	<button type='button' class='btn btn-danger btn-xs'>Danger</button>
+        	<button type='button' class='btn btn-link btn-xs'>Link</button>
+        </p>
+
+        <p>
+        <div class='btn-group'>
+          <button type='button' class='btn btn-default'>Left</button>
+          <button type='button' class='btn btn-default'>Middle</button>
+          <button type='button' class='btn btn-default'>Right</button>
+        </div>
+         </p>
+
+         <p>
+         <div class='btn-toolbar'>
+        <div class='btn-group'>
+          <button type='button' class='btn btn-default'>1</button>
+          <button type='button' class='btn btn-default'>2</button>
+          <button type='button' class='btn btn-default'>3</button>
+        </div>
+        <div class='btn-group'>
+          <button type='button' class='btn btn-default'>4</button>
+          <button type='button' class='btn btn-default'>5</button>
+          <button type='button' class='btn btn-default'>6</button>
+        </div>
+        <div class='btn-group'>
+          <button type='button' class='btn btn-default'>7</button>
+          <button type='button' class='btn btn-default'>8</button>
+          <button type='button' class='btn btn-default'>9</button>
+        </div>
+         </div>
+         </p>
+
+         <p>
+           <div class='btn-group'>
+             <button type='button' class='btn btn-default'>1</button>
+             <button type='button' class='btn btn-default'>2</button>
+             <div class='btn-group'>
+               <button type='button' class='btn btn-default dropdown-toggle' data-toggle='dropdown'>
+                 Dropdown <span class='caret'></span>
+               </button>
+               <ul class='dropdown-menu' role='menu'>
+                 <li><a href="">Dropdown link</a></li>
+                 <li><a href="">Dropdown link</a></li>
+               </ul>
+             </div>
+           </div>
+         </p>
+
+         <p>
+           <div class='btn-group-vertical'>
+             <button type='button' class='btn btn-default'>1</button>
+             <button type='button' class='btn btn-default'>2</button>
+             <div class='btn-group'>
+               <button type='button' class='btn btn-default dropdown-toggle' data-toggle='dropdown'>
+                 Dropdown <span class='caret'></span>
+               </button>
+               <ul class='dropdown-menu' role='menu'>
+                 <li><a href="">Dropdown link</a></li>
+                 <li><a href="">Dropdown link</a></li>
+               </ul>
+             </div>
+           </div>
+         </p>
+         
+          <p>
+          <div class='btn-group'>
+            <button type='button' class='btn btn-default'>Default</button>
+            <button type='button' class='btn btn-default dropdown-toggle' data-toggle='dropdown'>
+              <span class='caret'></span>
+            </button>
+            <ul class='dropdown-menu' role='menu'>
+              <li><a href="">Action</a></li>
+              <li><a href="">Action action</a></li>
+              <li class='divider'></li>
+              <li class='dropdown-header'>dropdown-header</li>
+              <li><a href="">Separeted link</a></li>
+            </ul>
+          </div>
+        </p>
+
+        <p>
+          <div class='btn-group dropup'>
+            <button type='button' class='btn btn-default'>Default</button>
+            <button type='button' class='btn btn-default dropdown-toggle' data-toggle='dropdown'>
+              <span class='caret'></span>
+            </button>
+            <ul class='dropdown-menu' role='menu'>
+              <li><a href="">Action</a></li>
+              <li><a href="">Action action</a></li>
+              <li class='divider'></li>
+              <li class='dropdown-header'>dropdown-header</li>
+              <li><a href="">Separeted link</a></li>
+            </ul>
+          </div>
+        </p>
+
+         <p>
+        <div class='btn-group btn-group-justified'>
+         <div class='btn-group'>
+          <button type='button' class='btn btn-default'>1</button>
+         </div>
+          <div class='btn-group'>
+          <button type='button' class='btn btn-default'>2</button>
+         </div>
+          <div class='btn-group'>
+          <button type='button' class='btn btn-default'>3</button>
+         </div>
+        </div>
+         </p>
+
+         <p>
+        <div class="btn-group btn-group-justified">
+          <a role='button' class='btn btn-default'>1</a>
+          <a role='button' class='btn btn-default'>2</a>
+          <a role='button' class='btn btn-default'>3</a>
+        </div>
+         </p>
+        
+         <p>
+           <button type='button' class='btn btn-primary' id='loading-example' data-loading-text='loading'>Loading state</button>
+           <script>
+            $('#loading-example').click( function () {
+              var btn = $(this);
+              btn.button('loading');
+              btn.delay(1000).queue( function() {
+                $(this).button('reset');
+              })
+              /*&ajax(....).always( function () {
+                 btn.button('reset');
+              })*/
+            })
+           </script>
+           <div class='btn btn-primary' data-toggle='button'>Single toggle</div>
+           <div class='btn-group' data-toggle='buttons'>
+             <label class='btn btn-primary active'>
+               <input type="checkbox" checked>option1
+             </label>
+             <label class="btn btn-primary">
+               <input type="checkbox">option2
+             </label>
+             <label class="btn btn-primary">
+               <input type="checkbox">option3
+             </label>
+           </div>
+         </p>
+      
+        <!--/.button-->
+
+
+        <div class='page-header'>
+          <h1>Input-group</h1>
+        </div>
+        <p>
+        <div class='input-group input-group-lg'>
+          <span class='input-group-addon'>@</span>
+          <input type="text" class='form-control' placeholder='Username'>
+        </div>
+        <div class='input-group'>
+          <span class='input-group-addon'>@</span>
+          <input type="text" class='form-control' placeholder='Username'>
+        </div>
+        <div class='input-group input-group-sm'>
+          <span class='input-group-addon'>@</span>
+          <input type="text" class='form-control' placeholder='Username'>
+        </div>
+        </p>
+        <p>
+          <div class='row'>
+            <div class='col-lg-6'>
+              <div class='input-group'>
+                <span class='input-group-addon'>
+                  <input type="checkbox">
+                </span>
+                <input type="text" class='form-control'>
+              </div>
+              <div class='input-group'>
+                <span class='input-group-addon'>
+                  <input type="checkbox">
+                </span>
+                <input type="text" class='form-control'>
+              </div>
+            </div>
+            <div class='col-lg-6'>
+              <div class='input-group'>
+                <span class='input-group-addon'>
+                  <input type="radio" name='names'>
+                </span>
+                <input type="text" class='form-control'>
+              </div>
+              <div class='input-group'>
+                <span class='input-group-addon'>
+                  <input type="radio" name='names'>
+                </span>
+                <input type="text" class='form-control'>
+              </div>
+            </div>
+          </div>
+        </p>
+
+        <p>
+          <div class='row'>
+            <div class='col-lg-4'>
+              <div class='input-group'>
+               <span class='input-group-btn'>
+                <button type='button' class='btn btn-default'>Go!</button>
+               </span>
+                <input type="text" class='form-control'>
+              </div>
+            </div>
+            <div class='col-lg-4'>
+              <div class='input-group'>
+                <div class='input-group-btn'>
+                  <button type='button' class='btn btn-default dropdown-toggle' data-toggle='dropdown'>Action <span class='caret'></span>
+                  </button>
+                  <ul class='dropdown-menu' role='menu'>
+                    <li><a href="">Action</a></li>
+                    <li><a href="">Action action</a></li>
+                    <li><a href="">Something else here</a></li>
+                    <li class='divider'></li>
+                    <li><a href="">Separated link</a></li>
+                  </ul>
+                </div>
+                <input type="text" class='form-control'>
+              </div>
+            </div>
+            <div class='col-lg-4'> 
+              <div class='input-group'>
+                <div class='input-group-btn'>
+                  <button type='button' class='btn btn-default'>Action</button>
+                  <button type='button' class='btn btn-default dropdown-toggle' data-toggle='dropdown'><span class='caret'></span></button>
+                  <ul class='dropdown-menu' role='menu'>
+                    <li><a href="">Action</a></li>
+                    <li><a href="">Action action</a></li>
+                    <li class='divider'></li>
+                    <li><a href="">Separated link</a></li>
+                  </ul>
+                </div>
+                <input type="text" class='form-control'>
+              </div>
+            </div>
+          </div>
+        </p>
+        <!--/ input group-->
+
+         <div class='page-header'>
+           <h1>glyphicon</h1>
+         </div>
+         <button type='button' class='btn btn-default btn-lg'><span class='glyphicon glyphicon-star'>Star</span></button>
+
+        <div class='page-header'>
+        	<H1>Tables</H1>
+        </div>
+        <div class='row'>
+        	<div class='col-md-6'>
+        		<table class='table'>
+        			<thead>
+        				<tr>
+        					<th>#</th>
+        					<th>First Name</th>
+        					<th>Last Name</th>
+        					<th>Username</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+                          <td>1</td>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+        			</tbody>
+        		</table>
+        	</div>
+        	<div class='col-md-6'>
+        		<table class='table table-striped'>
+        			<thead>
+        				<tr>
+        					<th>#</th>
+        					<th>First Name</th>
+        					<th>Last Name</th>
+        					<th>Username</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+                          <td>1</td>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+        			</tbody>
+        		</table>
+        	</div>
+        </div>
+        <div class='row'>
+        	<div class='col-md-6'>
+        		<table class='table table-bordered'>
+        			<thead>
+        				<tr>
+        				  <th>#</th>
+        				  <th>First Name</th>
+        				  <th>Last Name</th>
+        				  <th>Username</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+                          <td>1</td>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+        			</tbody>
+        		</table>
+        	</div>
+        	<div class='col-md-6'>
+        		<table class='table table-condensed'>
+        			<thead>
+        				<tr>
+        					<th>#</th>
+        					<th>First Name</th>
+        					<th>Last Name</th>
+        					<th>Username</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+                          <td>1</td>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+        			</tbody>
+        		</table>
+        	</div>
+        </div>
+        <!--/. table-->
+
+
+        <div class="page-header">
+        <h1>List</h1>
+        </div>
+        <h4>unstyled</h4>
+        <ul class="list-unstyled">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+        <h4>inline</h4>
+        <ul class="list-inline">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+        <h4>Description</h4>
+        <dl>
+          <dt>Description 1</dt>
+          <dd>Item 1</dd>
+          <dd>Item 2</dd>
+          <dt>Description 2</dt>
+          <dd>Item 1</dd>
+          <dd>Item 2</dd>
+        </dl>
+        <h4>horizontal</h4>
+        <dl class="dl-horizontal">
+          <dt>Description 1</dt>
+          <dd>Item 1</dd>
+          <dd>Item 2</dd>
+          <dt>Description 2</dt>
+          <dd>Item 1</dd>
+          <dd>Item 2</dd>
+        </dl>
+
+
+        <div class='page-header'>
+        	<h1>Thumbnails</h1>
+        </div>
+        <div class='row'>
+        	<div class='col-xs-6'>
+        	   <img src="../img/200.png" class='img-thumbnail' alt="alt">
+        	</div>
+        	<div class='col-lg-2'>
+        		<a href="" class='thumbnail'>
+        			<img src="../img/200.png" class='' alt="alt">
+        		</a>
+        	</div>
+        </div>
+        
+        <div class='row'>
+        	<div class='col-sm-3'>
+        		<div class='thumbnail'>
+        			<img src="../img/200.png" alt="alt">
+        			<div class='caption'>
+        				<h3>Thumbnail label</h3>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a href="" class='btn btn-primary'>Button</a> <a href="" class='btn btn-default'>Button</a></p>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+        
+
+       <!--/. img-thumbnail-->
+
+       <div class='page-header'>
+         <h1>Tooltip</h1>
+       </div>
+       
+
+       <div class='row'>
+        <div class='col-xs-3'>
+         <button type='button' class='btn btn-default' data-toggle='tooltip' data-placement'left' title='Tooltip on left'>
+           Tooltip on left
+         </button>
+         </div>
+         <div class='col-xs-3'>
+         <a href="" data-toggle='tooltip' data-placement='right' title='Tooltip on right' >Tooltip on right</a>
+         </div>
+         <div class='col-xs-3'>
+           <button type='button' class='btn btn-default' data-toggle='popover' data-placement='top' title='Tooltip-title' data-content='tooltip-content'>Toolp on top</button>
+         </div>
+          <div class='col-xs-3'>
+            <a tabindex="0" class='btn btn-danger' data-toggle="popover" data-trigger="focus" data-content='Tooltip on bottom'>Tooltip-buttom</a>
+          </div>
+         <script>
+            $(function () { 
+              $("[data-toggle='tooltip']").tooltip();
+              $("[data-toggle='popover']").popover();
+
+               });
+         </script>
+
+
+       </div><!--/tooltip-->
+
+
+        <div class='page-header'>
+        	<h1>Labels</h1>
+        </div>
+        <h1>
+        	<span class='label label-default'>Default</span>
+        	<span class='label label-primary'>Primary</span>
+        	<span class='label label-success'>Success</span>
+        	<span class='label label-info'>Info</span>
+        	<span class='label label-warning'>Warning</span>
+        	<span class='label label-danger'>Danger</span>
+        </h1>
+        <h2>
+        	<span class='label label-default'>Default</span>
+        	<span class='label label-primary'>Primary</span>
+        	<span class='label label-success'>Success</span>
+        	<span class='label label-info'>Info</span>
+        	<span class='label label-warning'>Warning</span>
+        	<span class='label label-danger'>Danger</span>
+        </h2>
+        <h3>
+        	<span class='label label-default'>Default</span>
+        	<span class='label label-primary'>Primary</span>
+        	<span class='label label-success'>Success</span>
+        	<span class='label label-info'>Info</span>
+        	<span class='label label-warning'>Warning</span>
+        	<span class='label label-danger'>Danger</span>
+        </h3>
+        <h4>
+        	<span class='label label-default'>Default</span>
+        	<span class='label label-primary'>Primary</span>
+        	<span class='label label-success'>Success</span>
+        	<span class='label label-info'>Info</span>
+        	<span class='label label-warning'>Warning</span>
+        	<span class='label label-danger'>Danger</span>
+        </h4>
+        <h5>
+        	<span class='label label-default'>Default</span>
+        	<span class='label label-primary'>Primary</span>
+        	<span class='label label-success'>Success</span>
+        	<span class='label label-info'>Info</span>
+        	<span class='label label-warning'>Warning</span>
+        	<span class='label label-danger'>Danger</span>
+        </h5>
+        <h6>
+        	<span class='label label-default'>Default</span>
+        	<span class='label label-primary'>Primary</span>
+        	<span class='label label-success'>Success</span>
+        	<span class='label label-info'>Info</span>
+        	<span class='label label-warning'>Warning</span>
+        	<span class='label label-danger'>Danger</span>
+        </h6>
+        <p>
+        	<span class='label label-default'>Default</span>
+        	<span class='label label-primary'>Primary</span>
+        	<span class='label label-success'>Success</span>
+        	<span class='label label-info'>Info</span>
+        	<span class='label label-warning'>Warning</span>
+        	<span class='label label-danger'>Danger</span>
+        </p>
+        <!--/. babel-->
+
+
+        <div class='page-header'>
+        	<h1>Badges</h1>
+        </div>
+        <p><a href="">Inbox <span class='badge'>42</span></a></p>
+        <p>
+        <ul class='nav nav-pills' role='tablist'>
+        	<li class='active' role='presentation'>
+        		<a href="">Home <span class='badge'>42</span></a>
+        	</li>
+        	<li role='presentation'><a href="">Profile</a></li>
+        	<li role='presentation'><a href="">Message <span class='badge'>3</span></a></li>
+        </ul>
+        </p>
+        <p>
+        <ul class='nav nav-pills nav-stacked' role='tablist'>
+        	<li class='active' role='presentation'>
+        		<a href=""> <span class='badge pull-right'>42</span>Home</a>
+        	</li>
+        	<li role='presentation'><a href="">Profile</a></li>
+        	<li role='presentation'><a href=""><span class='badge pull-right'>4</span>Message</a></li>
+        </ul>
+        </p>
+        <!--/badges-->
+
+
+        <div class='page-header'>
+        	<h1>Dropdown menus</h1>
+        </div>
+       
+        <div class='row'>
+        <div class='col-xs-3'>
+        <div class='dropdown theme-dropdown clearfix'>
+        <a id='dropdownMenu1' href="" class='sr-only dropdown-toggle' data-toggle='dropdown'>Dropdown <span class='caret'></span></a>
+        	<ul class='dropdown-menu' role='menu'>
+        		<li class='active' role='presentation'>
+        			<a href="#" tabindex='-1' role='menuitem'>Action</a>
+        		</li>
+        		<li role='presentation'>
+        			<a href="#" tabindex='-1' role='menuitem'>Action acton</a>
+        		</li>
+        		<li role='presentation'>
+        			<a href="#" tabindex='-1' role='menuitem'>Something else here</a>
+        		</li>
+        		<li class='divider' role='presentation'></li>
+        		<li role='presentation'>
+        			<a href="#" tabindex='-1' role='menuitem'>Separated link</a>
+        		</li>
+        	</ul>
+        </div>
+        </div>
+        <div class='col-xs-3'>
+        <div class='dropdown clearfix'>
+        <a id='dropdownMenu1' href="" class=' dropdown-toggle' data-toggle='dropdown'>Dropdown <span class='caret'></span></a>
+        	<ul class='dropdown-menu' role='menu' aria-labelledby="dropdownMenu1">
+        		<li class='active' role='presentation'>
+        			<a href="#" tabindex='-1' role='menuitem'>Action</a>
+        		</li>
+        		<li role='presentation'>
+        			<a href="#" tabindex='-1' role='menuitem'>Action acton</a>
+        		</li>
+        		<li role='presentation'>
+        			<a href="#" tabindex='-1' role='menuitem'>Something else here</a>
+        		</li>
+        		<li class='divider' role='presentation'></li>
+        		<li role='presentation'>
+        			<a href="#" tabindex='-1' role='menuitem'>Separated link</a>
+        		</li>
+        	</ul>
+        </div>
+        </div>
+        <div class='col-xs-3'>
+        <div class='dropdown'>
+          <button id='dropdownMenu1' type='button' class='btn btn-default dropdown-toggle' data-toggle='dropdown'>Dropdoen <span class='caret'></span></button>
+          <ul class='dropdown-menu dropdown-menu-right' role='menu' aria-labelledby='dropdownMenu1'>
+            <li class='dropdown-header' role='presentation'>dropheader</li>
+            <li role='presentation'><a href="" tabindex='-1'>Action</a></li>
+            <li role='presentation'><a href="" tabindex='-1'>Action action</a></li>
+            <li role='presentation'><a href="" tabindex='-1'>something else here</a></li>
+            <li class='divider' role='presentation'></li>
+            <li class='dropdown-header' role='presentation'>dropheader</li>
+            <li role='presentation'><a href="" tabindex='-1'></a></li>
+          </ul>
+          </div>
+        </div>
+        </div>
+
+        <!--/. dropdown menu-->
+
+        <div class='page-header'>
+        	<h1>Navs</h1>
+        </div>
+
+        <p>
+        <ul class='nav nav-tabs' role='tablist'>
+        	<li role='presentation' class='active'>
+        		<a href="">Home</a>
+        	</li>
+        	<li role='presentation'>
+        		<a href="">Profile</a>
+        	</li>
+        	<li role='presentation'>
+        		<a href="">Message</a>
+        	</li>
+        </ul>
+        </p>
+
+        <p>
+        <ul class='nav nav-pills' role='tablist'>
+        	<li role='presentation' class='active'>
+        		<a href="">Home</a>
+        	</li>
+        	<li role='presentation'>
+        		<a href="">Profile</a>
+        	</li>
+        	<li role='presentation'>
+        		<a href="">Message</a>
+        	</li>
+        </ul>
+        </p>
+
+        <p>
+        <ul class='nav nav-pills nav-stacked' role='tablist'>
+          <li role='presentation' class='active'>
+            <a href="">Home</a>
+          </li>
+          <li role='presentation'>
+            <a href="">Profile</a>
+          </li>
+          <li role='presentation'>
+            <a href="">Messages</a>
+          </li>
+        </ul>
+        </p>
+
+        <p>
+        <ul class='nav nav-pills nav-justified' role='tablist'>
+          <li role='presentation' class='active'><a href="">Home</a></li>
+          <li role='presentation' class='disabled'><a href="">Profiles</a></li><li role='presentation'><a href="">Message</a></li>
+        </ul>
+        </p>
+        
+        <p>
+          <ul class='nav nav-pills' role='tablist'>
+            <li role='presentation' class='active'><a href="">Home</a></li>
+            <li role='presentation'><a href="">Help</a></li>
+            <li role='presentation' class='dropdown'><a href="" class='dropdown-toggle' data-toggle='dropdown'>Dropdown <span class='caret'></span></a>
+            <ul class='dropdown-menu' role='menu'>
+              <li class='dropdown-header'>dropdown-header</li>
+              <li><a href="">Action</a></li>
+              <li class='divider'></li>
+              <li class='dropdown-header'>dropdown-header</li>
+              <li><a href="">Something else</a></li>
+            </ul>
+            </li>
+          </ul>
+        </p>
+
+        <!-- /. nav-->
+
+        <div class='page-header'>
+        	<h1>Navbars</h1>
+        </div>
+        <div class='navbar navbar-default'>
+        	<div class='container'>
+        		<div class='navbar-header'>
+                    <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='.navbar-collapse'>
+                    	<span class='sr-only'></span>
+                    	<span class='icon-bar'></span>
+                    	<span class='icon-bar'></span>
+                    	<span class='icon-bar'></span>
+                    </button>
+                    <a href="" class='navbar-brand'>Project name</a>
+        		</div>
+        		<div class='navbar-collapse collapse'>
+        			<ul class='nav navbar-nav'>
+        				<li class='active'><a href="">Home</a></li>
+        				<li><a href="">About</a></li>
+        				<li><a href="">Contact</a></li>
+        				<li class='dropdown'>
+        					<a href="" class='dropdown-toggle' data-toggle='dropdown'>Dropdown <span class='caret'></span></a>
+        					<ul class='dropdown-menu' role='menu'>
+        						<li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+        					</ul>
+        				</li>
+        			</ul>
+        		</div>
+        	</div>
+        </div>
+         <div class='navbar navbar-inverse'>
+        	<div class='container'>
+        		<div class='navbar-header'>
+                    <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='.navbar-collapse'>
+                    	<span class='sr-only'></span>
+                    	<span class='icon-bar'></span>
+                    	<span class='icon-bar'></span>
+                    	<span class='icon-bar'></span>
+                    </button>
+                    <a href="" class='navbar-brand'>Project name</a>
+        		</div>
+        		<div class='navbar-collapse collapse'>
+
+        			<ul class='nav navbar-nav'>
+        				<li class='active'><a href="">Home</a></li>
+        				<li><a href="">About</a></li>
+        				<li><a href="">Contact</a></li>
+        				<li class='dropdown'>
+        					<a href="" class='dropdown-toggle' data-toggle='dropdown'>Dropdown <span class='caret'></span></a>
+        					<ul class='dropdown-menu' role='menu'>
+        						<li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+        					</ul>
+        				</li>
+        			</ul>
+        		</div>
+        	</div>
+        </div>
+        <nav class='navbar navbar-default' role='navigation'>
+        	   <div class='container-fluid'>
+        		<div class='navbar-header'>
+        			<button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#bs-example1'>
+        				<span class='sr-only'></span>
+        				<span class='icon-bar'></span>
+        				<span class='icon-bar'></span>
+        				<span class='icon-bar'></span>
+        			</button>
+        			<a class='navbar-brand' href="">Brand</a>
+        		</div>
+        		<div class='collapse navbar-collapse' id='bs-example1'>
+        			<ul class='navbar-nav nav'>
+        				<li class='active'><a href="">Link</a></li>
+        				<li><a href="">Link</a></li>
+        				<li class='dropdown'>
+        					<a href="" class='dropdown-toggle' data-toggle='dropdown'>Dropdown <span class='caret'></span></a>
+        					<ul class='dropdown-menu' role='menu'>
+        					<li><a href="">Action</a></li>
+        					<li><a href="">Action action</a></li>
+        					<li class='divider'></li>
+        					<li class='dropdown-header'>dropdown-header</li>
+        					<li><a href="">Something else</a></li>
+        					</ul>
+        				</li>
+        			</ul>
+        			<form class='navbar-form navbar-right' role='search'>
+        				<div class='form-group'>
+        					<input type="text" class='form-control' placeholder='Search'>
+        				</div>
+        				<button type='submit' class='btn btn-default'>Submit</button>
+        			</form>
+        		</div>
+        	 </div>
+        </nav>
+
+        <nav class='navbar navbar-default' role='navigation'>
+        	<div class='container-fluid'>
+        		<a href="" class='navbar-brand'>
+        			<img src="../img/10.png" alt="">
+        		</a>
+        		<p class='navbar-text'>this is text</p>
+        		<p class='navbar-text navbar-right'>Signed in as <a href="" class='navbar-link'>Mark Otto</a></p>
+        	</div>
+        </nav>
+        <div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+        	<div class='container'>
+        		
+        	</div>
+        </div>
+        <div class='navbar navbar-default navbar-fixed-bottom' role='navigation'>
+        	<div class='container'>
+        		
+        	</div>
+        </div>
+         
+        <div class='navbar navbar-default navbar-static-top' role='navigation'>
+        	<div class='container'>
+        		
+        	</div>
+        </div>
+
+        <ol class="breadcrumb">
+        	<li>
+        		<a href="#">Home</a>
+        	</li>
+        	<li>
+        		<a href="#">Link</a>
+        	</li>
+        	<li class="active">Current</li>
+        </ol>
+        	
+        
+        <!--/.navbar-->
+
+        <div class='page-header'>
+        	<h1>pagination</h1>
+        </div>
+        <ul class='pagination'>
+        	<li><a href="">&laquo;</a></li>
+        	<li class='active'><a href="">1</a></li>
+        	<li><a href="">2</a></li>
+        	<li class='disabled'><span>3</span></li>
+        	<li><a href="">4</a></li>
+        	<li><a href="">5</a></li>
+        	<li><a href="">&raquo;</a></li>
+        </ul>
+        <p>
+        <ul class='pagination pagination-lg'>
+            <li><a href="">&laquo;</a></li>
+        	<li><a href="">1</a></li>
+        	<li><a href="">2</a></li>
+        	<li><a href="">3</a></li>
+        	<li><a href="">&raquo;</a></li>
+        </ul>
+        <ul class='pagination'>
+            <li><a href="">&laquo;</a></li>
+        	<li><a href="">1</a></li>
+        	<li><a href="">2</a></li>
+        	<li><a href="">3</a></li>
+        	<li><a href="">&raquo;</a></li>
+        </ul>
+        <ul class='pagination pagination-sm'>
+            <li><a href="">&laquo;</a></li>
+        	<li><a href="">1</a></li>
+        	<li><a href="">2</a></li>
+        	<li><a href="">3</a></li>
+        	<li><a href="">&raquo;</a></li>
+        </ul>
+        </p>
+
+        <ul class='pager'>
+        	<li><a href="">last</a></li>
+        	<li><a href="">next</a></li>
+        </ul>
+        <ul class='pager'>
+        	<li class='previous disabled'><a href="">&larr;Older</a></li>
+        	<li class='next'><a href="">Newer&rarr;</a></li>
+        </ul>
+
+        <!--/ pagination-->
+        <div class='page-header'>
+        	<h1>Alert</h1>
+        </div>
+       <div class='alert alert-success' role='alert'>
+       	<strong>Well done!</strong> You successfully read this important alert message.
+       </div>
+       <div class='alert alert-info' role='alert'>
+       	 <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+       </div>
+       <div class='alert alert-warning' role='alert'>
+       	 <strong>Warning!</strong> Best check yo self, you're not looking too good.
+       </div>
+       <div class='alert alert-danger' role='alert'>
+       	<strong>Oh snap!</strong> Change a few things up and try submitting again.
+       </div>
+
+       <div class='alert alert-warning alert-dismissable' role='alert'>
+       	<button type='button' class='close' data-dismiss='alert'><span>&times;</span><span class='sr-only'>Close</span></button>
+       	<strong>Warning!</strong>
+       </div>
+
+       <div class='alert alert-success' role='alert'>
+       <strong>Success!</strong>You successfully read
+       	<a href="" class='alert-link'>this</a> important alert message.
+       </div>
+       <!-- /.alert-->
+       
+
+       <div class='page-header'>
+       	<h1>Progress bars</h1>
+       </div>
+       <div class='progress'>
+       	<div class='progress-bar' role='progressbar' aria-valuenow'60' aria-valuemin='0' aria-valuemax='100' style='width:60%'>
+       		60%
+       	</div>
+       </div>
+       <div class='progress'>
+       	<div class='progress-bar' role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100' style='width:60%'>
+       		<span class='sr-only'>60% complete</span>
+       	</div>
+       </div>
+       <div class='progress'>
+       	<div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='40' aria-valuemin='0' aria-valuemax='100' style='width:40%'>
+       		<span class='sr-only'>40% complete</span>
+       	</div>
+       	</div>
+       	<div class='progress'>
+       		<div class='progress-bar progress-bar-info' role='progressbar' aria-valuenow='20' aria-valuemin='0' aria-valuemax='100' style='width:20%'>
+       			<span class='sr-only'>20% complete</span>
+       		</div>
+       	</div>
+       	<div class='progress'>
+       		<div class='progress-bar progress-bar-warning' role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100' style='width:60%'>
+       			<span class='sr-only'>60% complete</span>
+       		</div>
+       	</div>
+       	<div class='progress'>
+       		<div class='progress-bar progress-bar-danger' role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width:80%'>
+       			<span class='sr-only'>80% complete</span>
+       		</div>
+       	</div>
+       	<div class='progress'>
+       		<div class='progress-bar progress-bar-success progress-bar-striped' role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100' style='width:60%'>
+       			<span class='sr-only'>60% complete</span>
+       		</div>
+       	</div>
+       	<div class='progress'>
+       		<div class='progress-bar progress-bar-success progress-bar-striped active' role='progressbar' aria-valuenow='45' aria-valuemin='0' aria-valuemin='100' style='width:45%'>
+            <span class='sr-only'>45% complete</span>	
+       		</div>
+       	</div>
+        <div class='progress'>
+        	<div class="progress-bar progress-bar-success" style="width: 35%"><span class="sr-only">35% Complete (success)</span></div>
+            <div class="progress-bar progress-bar-warning" style="width: 20%"><span class="sr-only">20% Complete (warning)</span></div>
+            <div class="progress-bar progress-bar-danger" style="width: 10%"><span class='sr-only'>10% Complete (danger)</span></div>
+        </div>
+        <!--/.progress-->
+         
+
+         <div class='page-header'>
+         	<h1>Media</h1>
+         </div>
+         <div class='media'>
+         	<a href="" class='pull-left'>
+         		<img href="" class='media-object' src='../img/200.png' alt=''/>
+         	</a>
+         	<div class='media-body'>
+         		<h4 class='media-heading'>Media heading</h4>
+         		<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+         	</div>
+         	</div>
+         <div class='media'>
+         	<a href="" class='pull-left'>
+         		<img href="" class='media-object' src='../img/200.png' alt=''/>
+         	</a>
+         	<div class='media-body'>
+         		<h4 class='media-heading'>Media heading</h4>
+         		<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+         	</div>
+         	<div class='media'>
+         	<a href="" class='pull-left'>
+         		<img href="" class='media-object' src='../img/200.png' alt=''/>
+         	</a>
+         	<div class='media-body'>
+         		<h4 class='media-heading'>Media heading</h4>
+         		<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+         	</div>
+         	</div>
+         </div>
+          
+          <ul class='media-list'>
+          	<li class='media'>
+          		<a href="" class='pull-left'>
+          			<img src="../img/200.png" alt="" />
+          		</a>
+          		<div class='media-body'>
+          			<h4 class='media-heading'>Media heading</h4>
+          			<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+          		</div>
+          	</li>
+          </ul>
+
+         <!--/media-->
+         <div class='page-header'>
+         	<h1>List group</h1>
+         </div>
+         <div class='row'>
+         	<div class='col-sm-4'>
+         		<ul class='list-group'>
+         			<li class='list-group-item'>Cras justoodio</li>
+         			<li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+         		</ul>
+         	</div>
+         	<div class='col-sm-4'>
+         		<div class='list-group'>
+         			<a href="" class='list-group-item active'>Cras justo odio</a>
+         			<a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                    <a href="#" class="list-group-item">Morbi leo risus</a>
+                    <a href="#" class="list-group-item">Porta ac consectetur ac</a        >
+                    <a href="#" class="list-group-item">Vestibulum at eros</a>
+         		</div>
+         	</div>
+         	<div class='col-sm-4'>
+         		<div class='list-group'>
+         		  <a href="" class='list-group-item active'>
+         		  	<h4 class='list-group-item-heading'>List group item heading</h4>
+         		  	<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+         		  </a>
+         		  <a href="#" class="list-group-item">
+                   <h4 class="list-group-item-heading">List group item heading</h4>
+                   <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                  </a>
+                   <a href="#" class="list-group-item">
+                   <h4 class="list-group-item-heading">List group item heading</h4>
+                   <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                  </a>
+         		</div>
+         	</div>
+         </div>
+         <div class='row'>
+           <div class='col-xs-3'>
+         	<ul class='list-group'>
+         	  <li class="list-group-item"><span class='badge'>14</span> Cras justo odio</li>
+              <li class="list-group-item"><span class='badge'>2</span>Dapibus ac facilisis in</li>
+              <li class="list-group-item"><span class='badge'>100</span>Morbi leo risus</li>
+         	</ul>
+           </div>
+           <div class='col-xs-3'>
+           	<a href="" class='list-group-item disabled'>Cras justo odio</a>
+           	<a href="#" class="list-group-item">Morbi leo risus</a>
+            <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+            <a href="#" class="list-group-item">Vestibulum at eros</a>
+           </div>
+           <div class='col-xs-3'>
+           	<li class='list-group-item list-group-item-success'>Dapibus ac facilisis in</li>
+           	<li class='list-group-item list-group-item-info'>Cras sit amet nibh libero</li>
+           	<li class='list-group-item list-group-item-warning'>Porta ac consectetur ac</li>
+           	<li class="list-group-item list-group-item-danger">Vestibulum at eros</li>
+           </div>
+           <div class='col-xs-3'>
+           	<a href='' class='list-group-item list-group-item-success'>Dapibus ac facilisis in</a>
+           	<a href='' class='list-group-item list-group-item-info'>Cras sit amet nibh libero</a>
+           	<a href='' class='list-group-item list-group-item-warning'>Porta ac consectetur ac</a>
+           	<a href='' class="list-group-item list-group-item-danger">Vestibulum at eros</a>
+           </div>
+         </div>
+         <!--/.list-group-->
+
+         <div class='page-header'>
+         	<h1>Panels</h1>
+         </div>
+         <div class='row'>
+         	<div class='col-xs-4'>
+         		<div class='panel panel-default'>
+         			<div class='panel-heading'>
+         				<h3 class='panel-title'><a href="">Panel title</a></h3>
+         			</div>
+         			<div class='panel-body'>
+         				Panel content
+         			</div>
+         		</div>
+         	</div>
+         	<div class='col-xs-4'>
+         	<div class='panel panel-default'>
+         		<div class='panel-body'>
+         			Panel content
+         		</div>
+         		<div class='panel-footer'>
+         			Panel footer
+         		</div>
+         	</div>
+         	</div>
+         </div>
+         <div class='row'>
+         	<div class='col-sm-4'>
+         		<div class='panel panel-default'>
+         			<div class='panel-heading'>
+         				<h3 class='panel-title'>Panel title</h3>
+         			</div>
+         			<div class='panel-body'>
+         				Panel content
+         			</div>
+         		</div>
+         		<div class='panel panel-primary'>
+         			<div class='panel-heading'>
+         				<h3 class='panel-title'>
+         					Panel title
+         				</h3>
+         			</div>
+         			<div class='panel-body'>
+         				Panel content
+         			</div>
+         		</div>
+         	</div>
+         	<div class='col-sm-4'>
+         		<div class='panel panel-success'>
+         			<div class='panel-heading'>
+         				<h3 class='panel-title'>Panel title</h3>
+         			</div>
+         			<div class='panel-body'>
+         				Panel content
+         			</div>
+         		</div>
+         		<div class='panel panel-info'>
+         			<div class='panel-heading'>
+         				<h3 class='panel-title'>
+         					Panel title
+         				</h3>
+         			</div>
+         			<div class='panel-body'>
+         				Panel content
+         			</div>
+         		</div>
+         	</div>
+         	<div class='col-sm-4'>
+         		<div class='panel panel-warning'>
+         			<div class='panel-heading'>
+         				<h3 class='panel-title'>Panel title</h3>
+         			</div>
+         			<div class='panel-body'>
+         				Panel content
+         			</div>
+         		</div>
+         		<div class='panel panel-danger'>
+         			<div class='panel-heading'>
+         				<h3 class='panel-title'>
+         					Panel title
+         				</h3>
+         			</div>
+         			<div class='panel-body'>
+         				Panel content
+         			</div>
+         		</div>
+         	</div>
+         </div>
+         <div class='row'>
+         	<div class='col-xs-6'>
+         		<div class='panel panel-default'>
+         			<div class='panel-heading'>Panel heading</div>
+         			<div class='panel-body'>
+         				<p>Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+         			</div>
+         			<table class='table'>
+         				<tr>
+         					<th>#</th>
+         					<th>First Name</th>
+         					<th>Last Name</th>
+         					<th>Username</th>
+         				</tr>
+         				<tr>
+         					<td>1</td>
+         					<td>Mark</td>
+         					<td>Otto</td>
+         					<td>@mdo</td>
+         				</tr>
+         				<tr>
+         					<td>2</td>
+         					<td>Jacob</td>
+         					<td>Thornton</td>
+         					<td>@fat</td>
+         				</tr>
+         				<tr>
+         					<td>3</td>
+         					<td>Larry</td>
+         					<td>the Bird</td>
+         					<td>@twitter</td>
+         				</tr>
+         			</table>
+         		</div>
+         	</div>
+         	<div class='col-xs-6'>
+         		<div class='panel panel-default'>
+         			<div class='panel-heading'><h3 class='panel-title'>Panel heading</h3></div>
+         			<div class='panel-body'>
+         				<p>Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+         			</div>
+         			<ul class='list-group'>
+         			  <li class="list-group-item">Cras justo odio</li>
+                      <li class="list-group-item">Dapibus ac facilisis in</li>
+                      <li class="list-group-item">Morbi leo risus</li>
+                      <li class="list-group-item">Porta ac consectetur ac</li>
+                      <li class="list-group-item">Vestibulum at eros</li>
+         			</ul>
+         		</div>
+         	</div>
+         </div>
+
+         <!--/. panel-->
+
+        <div class='page-header'>
+         <h1>Collapse items</h1>
+       </div>
+       <div>
+         <div class='panel-group' id='accordion'>
+           <div class='panel panel-default'>
+             <div class='panel-heading'>
+               <h4 class='panel-title'>
+                 <a href="#collapseOne"  data-toggle='collapse' data-parent='#accordion'>
+                   Collpase Item #1
+                 </a>
+               </h4>
+             </div>
+             <div class='panel-collapse collapse in' id='collapseOne'>
+              <div class='panel-body'>
+               <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.<p>
+              </div>
+             </div>
+           </div>
+           <div class='panel panel-default'>
+             <div class='panel-heading'>
+               <h4 class='panel-title'>
+                 <a href="#collapseTwo" data-toggle='collapse' data-parent='#accordion'>
+                   Collapse Item #2
+                 </a>
+               </h4>
+             </div>
+             <div class='panel-collapse collapse' id='collapseTwo'>
+               <div class='panel-body'>
+                 <p>
+                   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                 </p>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+
+
+       <div class='panel-group' id='accordionz'>
+         <div class='panel'>
+           <div class='panel-heading'>
+             <h4 class='panel-title'>
+               <a href="#collapseOne2"  data-toggle='collapse' data-parent='#accordionz'>
+                 Collpase Item #1
+               </a>
+             </h4>
+           </div>
+           <div class='panel-collapse collapse' id='collapseOne2'>
+           </div>
+         </div>
+         <div class='panel'>
+           <div class='panel-heading'>
+             <h4 class='panel-title'>
+               <a href="#collapseTwo2"  data-toggle='collapse' data-parent='#accordionz'>
+                 Collpase Item #1
+               </a>
+             </h4>
+           </div>
+           <div class='panel-collapse collapse' id='collapseTwo2'>
+           </div>
+         </div>
+         <div class='panel'>
+           <div class='panel-heading'>
+             <h4 class='panel-title'>
+               <a href="#collapseThree" data-toggle='collapse' data-parent='#accordionz'>
+                 Collapse Item #2
+               </a>
+             </h4>
+           </div>
+           <div class='panel-collapse collapse' id='collapseThree'>
+             <div class='panel-body'>
+                <a  class='list-group-item'>Cras justo odio</a>
+                <a  class="list-group-item">Morbi leo risus</a>
+                <a  class="list-group-item">Porta ac consectetur ac</a>
+                <a  class="list-group-item">Vestibulum at eros</a>
+             </div>
+           </div>
+         </div>
+         <div class='panel'>
+           <div class='panel-heading'>
+             <h4 class='panel-title'>
+               <a href="#collapseFour" data-toggle='collapse' data-parent='#accordionz'>
+                 Collapse Item #2
+               </a>
+             </h4>
+           </div>
+           <div class='panel-collapse collapse' id='collapseFour'>
+             <div class='panel-body'>
+                <a class='list-group-item'>Cras justo odio</a>
+                <a class="list-group-item">Morbi leo risus</a>
+                <a class="list-group-item">Porta ac consectetur ac</a>
+                <a class="list-group-item">Vestibulum at eros</a>
+             </div>
+           </div>
+         </div>
+         <div class='panel'>
+           <div class='panel-heading'>
+             <h4 class='panel-title'>
+               <a href="#collapseFiver" data-toggle='collapse' data-parent='#accordionz'>
+                 Collapse Item #2
+               </a>
+             </h4>
+           </div>
+           <div class='panel-collapse collapse' id='collapseFiver'>
+             <div class='panel-body'>
+                <a  class='list-group-item'>Cras justo odio</a>
+                <a  class="list-group-item">Morbi leo risus</a>
+                <a  class="list-group-item">Porta ac consectetur ac</a>
+                <a  class="list-group-item">Vestibulum at eros</a>
+               <div class='panel'>
+                 <div class='panel-heading'>
+                   <h4 class='panel-title'>
+                     <a href="#collapseSix" data-toggle='collapse' data-parent='#collapseFiver'>
+                       Collapse Item #2
+                     </a>
+                   </h4>
+                 </div>
+                 <div class='panel-collapse collapse' id='collapseSix'>
+                   <div class='panel-body'>
+                      <a  class='list-group-item'>Cras justo odio</a>
+                      <a  class="list-group-item">Morbi leo risus</a>
+                      <a  class="list-group-item">Porta ac consectetur ac</a>
+                      <a  class="list-group-item">Vestibulum at eros</a>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+       <!--/Collapse items-->
+
+
+         <div class='page-header'>
+         	<h1>ember</h1>
+         </div>
+         <div class="embed-responsive embed-responsive-16by9">
+           <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
+         </div>
+         <!--/ember-->
+
+         <div class='page-header'>
+         	<h1>Wells</h1>
+         </div>
+   
+         <div class='well well-lg'>
+         	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+         </div>
+         <div class='well'>
+         	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+         </div>
+         <div class='well well-sm'>
+         	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+         </div>
+         <!--/. wells-->
+
+         <div class='page-header'>
+        <h1>dialog</h1>
+        <p>
+        <button class='btn btn-primary btn-lg' data-toggle='modal' data-target='#myModal'>
+          Learn demo modal
+        </button>
+        </p>
+        <div class='modal fade' id='myModal' tabindex='-1' role='dialog' aria-hidden='true'>
+          <div class='modal-dialog'>
+            <div class='modal-content'>
+              <div class='modal-header'>
+                <button type='button' class='close' data-dismiss='modal'>
+                <span aria-hidden='true'>&times;</span>
+                <span class='sr-only'>Close</span>
+                </button>
+                <h4 class='modal-title'>Modal title</h4>
+              </div>
+              <div class='modal-body'>
+                <p>body</p>
+                <p>body</p>
+                <p>body</p>
+              </div>
+              <div class='modal-footer'>
+                <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
+                <button type='button' class='btn btn-primary'>Save</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p>
+        <button type='button' class='btn btn-info' data-toggle='modal' data-target='#largeOne'>larger modal</button>
+        <button type='button' class='btn btn-info' data-toggle='modal' data-target='#smallOne'>small modal</button>
+        </p>
+        <div class='modal fade' id='largeOne' role='dialog' aria-hidden='true' tabindex='-1'>
+          <div class='modal-dialog modal-lg'>
+            <div class='modal-content'>
+              <div class='modal-title'>
+                <button  type='button' class='close' data-dismiss='modal'>
+                  <span aria-hidden='true'>&times;</span>
+                  <span class='sr-only'>Close</span>
+                </button>
+                <h4 class='modal-header'>Modal header</h4>
+              </div>
+              <div class='modal-body'>
+                <p>body</p>
+                <p>body</p>
+              </div>
+              <div class='modal-footer'>
+                <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
+                <button type='button' class='btn btn-primary'>Save</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='modal' id='smallOne' role='dialog' aria-hidden='true' tabindex='-1'>
+          <div class='modal-dialog modal-sm'>
+            <div class='modal-content'>
+              <div class='modal-title'>
+                <button class='btn btn-primary close' data-dismiss='modal' data-hidden='true' tabindex='-1'>
+                  <span aria-hidden='true'>&times;</span>
+                  <span class='sr-only'>Close</span>
+                </button>
+                <h4>Modal header</h4>
+              </div>
+              <div class='modal-body'>
+                <p>body</p>
+                <p>body</p>
+              </div>
+              <div class='footer'>
+                <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
+                <button type='button' class='btn btn-primary'>Save</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/modal-->
+
+        <div class='page-header'>
+          <h1>Scrollspy</h1>
+        </div>
+        <div id='scrollOne' class='navbar navbar-default'>
+          <div class='navbar-header'>
+            <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#navbarProject'>
+              <span class='sr-only'>Collapse</span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+            </button>
+            <a href="" class='navbar-brand'>Project Name</a>
+          </div>
+          <div class='collapse navbar-collapse' id='navbarProject'>
+            <ul class='nav navbar-nav'>
+              <li><a href="#fat">@fat</a></li>
+              <li><a href="#mdo">@mdo</a></li>
+              <li class='dropdow'>
+              <a href="" class='dropdown-toggle' data-toggle='dropdown'>Dropdowm <span class='caret'></span></a>
+                <ul class='dropdown-menu' role='menu'>
+                  <li><a href="#one">one</a></li>
+                  <li><a href="#two">two</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div data-spy='scroll' data-target='#scrollOne' style='height:250px;overflow:auto;'>
+          <h4 id='fat'>fat</h4>
+          <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
+          <h4 id='mdo'>mdo</h4>
+          <p>Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard. Freegan beard aliqua cupidatat mcsweeney's vero. Cupidatat four loko nisi, ea helvetica nulla carles. Tattooed cosby sweater food truck, mcsweeney's quis non freegan vinyl. Lo-fi wes anderson +1 sartorial. Carles non aesthetic exercitation quis gentrify. Brooklyn adipisicing craft beer vice keytar deserunt.</p>
+          <h4 id='one'>one</h4>
+          <p>Occaecat commodo aliqua delectus. Fap craft beer deserunt skateboard ea. Lomo bicycle rights adipisicing banh mi, velit ea sunt next level locavore single-origin coffee in magna veniam. High life id vinyl, echo park consequat quis aliquip banh mi pitchfork. Vero VHS est adipisicing. Consectetur nisi DIY minim messenger bag. Cred ex in, sustainable delectus consectetur fanny pack iphone.</p>
+          <h4 id='two'>two</h4>
+          <p>In incididunt echo park, officia deserunt mcsweeney's proident master cleanse thundercats sapiente veniam. Excepteur VHS elit, proident shoreditch +1 biodiesel laborum craft beer. Single-origin coffee wayfarers irure four loko, cupidatat terry richardson master cleanse. Assumenda you probably haven't heard of them art party fanny pack, tattooed nulla cardigan tempor ad. Proident wolf nesciunt sartorial keffiyeh eu banh mi sustainable. Elit wolf voluptate, lo-fi ea portland before they sold out four loko. Locavore enim nostrud mlkshk brooklyn nesciunt.</p>
+        </div>
+        <!--/scroll-->
+
+        <div class='page-header'>
+          <h1>Toggle tabs</h1>
+        </div>
+        <div>
+          <ul class='nav nav-tabs'>
+            <li class='active'><a href="#home" data-toggle='tab' role='tab'>Home</a></li>
+            <li><a href="#profile" data-toggle='tab' role='tab'>Profile</a></li>
+            <li class='dropdown'><a href="" class='dropdown-toggle' data-toggle='dropdown'>Dropdown<span class='caret'></span></a>
+            <ul class='dropdown-menu' role='menu'>
+              <li><a href="#fat" data-toggle='tab' role='tab'>@fat</a></li>
+              <li><a href="#mdo" data-toggle='tab' role='tab'>@mdo</a></li>
+            </ul>
+            </li>
+          </ul>
+          <div class='tab-content'>
+            <div class='tab-pane fade in active' id='home'>
+              <p>Occaecat commodo aliqua delectus. Fap craft beer deserunt skateboard ea. Lomo bicycle rights adipisicing banh mi, velit ea sunt next level locavore single-origin coffee in magna veniam. High life id vinyl, echo park consequat quis aliquip banh mi pitchfork. Vero VHS est adipisicing. Consectetur nisi DIY minim messenger bag. Cred ex in, sustainable delectus consectetur fanny pack iphone.</p>
+            </div>
+            <div class='tab-pane fade' id='profile'>
+               <p>In incididunt echo park, officia deserunt mcsweeney's proident master cleanse thundercats sapiente veniam. Excepteur VHS elit, proident shoreditch +1 biodiesel laborum craft beer. Single-origin coffee wayfarers irure four loko, cupidatat terry richardson master cleanse. Assumenda you probably haven't heard of them art party fanny pack, tattooed nulla cardigan tempor ad. Proident wolf nesciunt sartorial keffiyeh eu banh mi sustainable. Elit wolf voluptate, lo-fi ea portland before they sold out four loko. Locavore enim nostrud mlkshk brooklyn nesciunt.</p>
+            </div>
+            <div class='tab-pane fade' id='fat'>
+               <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
+            </div>
+            <div class='tab-pane fade' id='mdo'>
+              <p>Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard. Freegan beard aliqua cupidatat mcsweeney's vero. Cupidatat four loko nisi, ea helvetica nulla carles. Tattooed cosby sweater food truck, mcsweeney's quis non freegan vinyl. Lo-fi wes anderson +1 sartorial. Carles non aesthetic exercitation quis gentrify. Brooklyn adipisicing craft beer vice keytar deserunt.</p>
+            </div>
+          </div>
+ 
+          <ul class='nav nav-pills'>
+            <li class='active'><a href="#homes" data-toggle='tab' role='tab'>home</a></li>  
+            <li><a href="#profiles" data-toggle='tab' role='tab'>profile</a></li>
+          </ul>
+          <div class='tab-content'>
+            <div class='tab-pane active' id='homes'>
+               <p>Occaecat commodo aliqua delectus. Fap craft beer deserunt skateboard ea. Lomo bicycle rights adipisicing banh mi, velit ea sunt next level locavore single-origin coffee in magna veniam. High life id vinyl, echo park consequat quis aliquip banh mi pitchfork. Vero VHS est adipisicing. Consectetur nisi DIY minim messenger bag. Cred ex in, sustainable delectus consectetur fanny pack iphone.</p>
+            </div>
+            <div class='tab-pane' id='profiles'>
+              <p>In incididunt echo park, officia deserunt mcsweeney's proident master cleanse thundercats sapiente veniam. Excepteur VHS elit, proident shoreditch +1 biodiesel laborum craft beer. Single-origin coffee wayfarers irure four loko, cupidatat terry richardson master cleanse. Assumenda you probably haven't heard of them art party fanny pack, tattooed nulla cardigan tempor ad. Proident wolf nesciunt sartorial keffiyeh eu banh mi sustainable. Elit wolf voluptate, lo-fi ea portland before they sold out four loko. Locavore enim nostrud mlkshk brooklyn nesciunt.</p>
+            </div>
+            </div>
+         
+
+         
+        </div><!--toggle tabs-->
+
+         <div class='page-header'>
+            <h1>Carousel</h1>
+         </div>
+         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" >
+         <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="../img/1.png" alt="First slide">
+          </div>
+          <div class="item">
+            <img src="../img/2.png" alt="Second slide">
+          </div>
+          <div class="item">
+            <img src="../img/3.png" alt="Third slide">
+          </div>
+        </div>
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+            <!--/. carousel-->
+
+      
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+     </div><!--/. container-->
+
+
+  </body> 
+</html>

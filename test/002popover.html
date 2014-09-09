@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Bootstrap 101 Template</title>
+      <link href="../css/bootstrap.min.css" rel="stylesheet">
+      <style type="text/css">
+    
+
+      </style>
+  </head> 
+    <body>
+       <button type="button" id="example" rel="popover" class="btn btn-link">like</button>
+
+      <script src="../js/jquery-1.9.0.min.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
+      <script>
+       $('#example').popover({
+        placement: 'right',
+        title: 'Like this website?',
+        html: true,
+        trigger:'focus',
+        content: '<button class="btn" onclick="alert(0)"><a>Like</a></button>'
+       });
+       //reference:http://getbootstrap.com/javascript/#popovers
+     </script> 
+    </body> 
+</html>
